@@ -1,0 +1,18 @@
+requests==2.31.0
+beautifulsoup4==4.12.2
+python-dotenv==1.0.0
+pandas==2.1.4
+selenium==4.15.2
+webdriver-manager==4.0.1
+lxml==4.9.3
+# 무료 LLM 대안
+ollama==0.1.7
+# 또는 Hugging Face Transformers
+transformers==4.35.2
+torch==2.1.1
+# 무료 TTS
+gtts==2.4.0
+pyttsx3==2.90
+# 기타 유틸리티
+numpy==1.24.3
+
