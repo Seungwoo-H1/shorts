@@ -1,7 +1,7 @@
 import requests
 import json
 from typing import List, Dict
-from config import Config
+from config.config import Config
 import logging
 
 # 로깅 설정

@@ -20,8 +20,8 @@ def demo_rule_based_analysis():
     
     try:
         from config import Config
-        from agro_analyzer import AgroAnalyzer
-        from news_summarizer import NewsSummarizer
+        from utils.agro_analyzer import AgroAnalyzer
+        from utils.news_summarizer import NewsSummarizer
         
         # 설정을 규칙 기반으로 변경
         Config.LLM_TYPE = 'rule_based'

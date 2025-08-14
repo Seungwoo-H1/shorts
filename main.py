@@ -10,9 +10,9 @@ import json
 from datetime import datetime
 from typing import Dict, List
 from config import Config
-from news_crawler import NateNewsCrawler
-from agro_analyzer import AgroAnalyzer
-from news_summarizer import NewsSummarizer
+from utils.news_crawler import NateNewsCrawler
+from utils.agro_analyzer import AgroAnalyzer
+from utils.news_summarizer import NewsSummarizer
 
 # 로깅 설정
 logging.basicConfig(
